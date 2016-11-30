@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E26F2C9F1DEF5836008050BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2C9E1DEF5836008050BC /* main.cpp */; };
+		E26F2CA81DEF58FB008050BC /* AbstractGeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2CA61DEF58FB008050BC /* AbstractGeometricObject.cpp */; };
+		E26F2CAB1DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2CA91DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.cpp */; };
+		E26F2CAE1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2CAD1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		E26F2C9B1DEF5836008050BC /* COMP130 Book Listing 15.13 Abstract Function Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "COMP130 Book Listing 15.13 Abstract Function Example"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26F2C9E1DEF5836008050BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E26F2CA51DEF584F008050BC /* AbstractGeometricObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractGeometricObject.h; sourceTree = "<group>"; };
+		E26F2CA61DEF58FB008050BC /* AbstractGeometricObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractGeometricObject.cpp; sourceTree = "<group>"; };
+		E26F2CA91DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedCircleFromAbstractGeometricObject.cpp; sourceTree = "<group>"; };
+		E26F2CAA1DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DerivedCircleFromAbstractGeometricObject.h; sourceTree = "<group>"; };
+		E26F2CAC1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DerivedRectangleFromAbstractGeometricObject.h; sourceTree = "<group>"; };
+		E26F2CAD1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedRectangleFromAbstractGeometricObject.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E26F2C9E1DEF5836008050BC /* main.cpp */,
+				E26F2CA51DEF584F008050BC /* AbstractGeometricObject.h */,
+				E26F2CAA1DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.h */,
+				E26F2CAC1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.h */,
+				E26F2CA61DEF58FB008050BC /* AbstractGeometricObject.cpp */,
+				E26F2CA91DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.cpp */,
+				E26F2CAD1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.cpp */,
 			);
 			path = "COMP130 Book Listing 15.13 Abstract Function Example";
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26F2CAB1DEF5AE5008050BC /* DerivedCircleFromAbstractGeometricObject.cpp in Sources */,
+				E26F2CAE1DEF5CFB008050BC /* DerivedRectangleFromAbstractGeometricObject.cpp in Sources */,
+				E26F2CA81DEF58FB008050BC /* AbstractGeometricObject.cpp in Sources */,
 				E26F2C9F1DEF5836008050BC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
